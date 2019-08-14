@@ -1,8 +1,7 @@
-nums_list = [2,3,8,8,8]
 def pick_2_subset(nums_list):
-    dumy = [0, 0, 0, 0, 0]
+    dumy = [0] * len(nums_list)
     # 부분집합 두개인 애들의 인덱스를 뽑아라
-    indexes = []  # 확인용
+    # 확인용
     dumies = []
     for i in range(1<<len(nums_list)):
         temp = []
@@ -10,7 +9,6 @@ def pick_2_subset(nums_list):
             if i & (1<<j):
                 temp += [j]
         if len(temp) == 2:
-            indexes += [temp]
             dumy = mk_new_list(nums_list, temp)
             dumies += [dumy]
     return dumies
@@ -28,11 +26,12 @@ def my_sum(m, n):
 
     num = 0
     for i in range(m):
+        
         num += n ** i
     return num
 
 # 부분집합 인덱스끼리 교환하는 함수
-def mk_new_list(num_list, temp):
+def mk_new_list(nums_list, temp):
     dumy = [0] * len(nums_list)
     for i in range(len(nums_list)):
 
@@ -47,9 +46,6 @@ def mk_new_list(num_list, temp):
     return dumy
 
 
-cnt1 = pick_2_subset(nums_list)
-print(cnt1)
-print(deep_depth_may(cnt1))
 # T = int(input())
 #
 # for tc in range(1, T+1):
@@ -61,10 +57,7 @@ print(deep_depth_may(cnt1))
 #
 #     print(nums_list)
 
-n = 2
-lists = []
-nums_list = [3, 2, 8, 8, 8]
-lists += [nums_list]
+
 # result [[2, 3, 8, 8, 8], [8, 2, 3, 8, 8], [3, 8, 2, 8, 8], [8, 2, 8, 3, 8], [3, 8, 8, 2, 8], [3, 2, 8, 8, 8], [8, 2, 8, 8, 3], [3, 8, 8, 8, 2], [3, 2, 8, 8, 8], [3, 2, 8, 8, 8]]
 # all_list = []
 # for index in indexes:
@@ -80,30 +73,45 @@ lists += [nums_list]
 #
 
 # print(deep_depth_may(lists))
-my_max = deep_depth_may(lists)
-for m in range(n):
-    temp = []
-    if m == 0:
-        cnt = []
-        b = lists[0]
-        cnt = pick_2_subset(b) # 0 == m
-        for c in cnt:
-            lists += [c]
-        if my_max < deep_depth_may(cnt):
-            my_max = deep_depth_may(cnt)
-        del(cnt)
-    else:
-        nCn = len(lists)-1
-        start = my_sum(m, nCn)
-        for k in range(start, len(lists)):
+T = int(input())
+for tc in range(1, T+1):
+
+    nums, n = input().split()
+    nums_list = []
+    lists = []
+    for a in nums:
+        nums_list += [int(a)]
+    n = int(n)
+    lists += [nums_list]
+
+    my_max = deep_depth_may(lists)
+    for m in range(n):
+        temp1 = []
+        temp = []
+        if m == 0:
             cnt = []
-            a = lists[k]
-            new = pick_2_subset(a)
+            b = lists[0]
+            cnt = pick_2_subset(b) # 0 == m
             for c in cnt:
-                temp += [c]
-            if my_max < deep_depth_may(new):
-                my_max = deep_depth_may(new)
-            del(new)
-    for tp in temp:
-        lists += [tp]
-print(my_max)
+                lists += [c]
+            if my_max < deep_depth_may(cnt):
+                my_max = deep_depth_may(cnt)
+            del(cnt)
+        else:
+            nCn = len(lists[0])
+            start = my_sum(m, nCn) - 1
+            for k in range(start, len(lists)):
+                cnt = []
+                a = lists[k]
+                cnt = pick_2_subset(a)
+                for c in cnt:
+                    temp1 += [c]
+                if my_max < deep_depth_may(cnt):
+                    my_max = deep_depth_may(cnt)
+                
+        for tp in temp1:
+            lists += [tp]
+
+
+
+    print('#{} {}'.format(tc, my_max))

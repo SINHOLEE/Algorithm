@@ -21,7 +21,7 @@ matrix = [[1, 1, 1, 1, 1],
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
-print(matrix)
+pprint(matrix)
 total = 0
 for x in range(len(matrix)):
     for y in range(len(matrix[x])):

@@ -26,6 +26,7 @@ for t in range(1, T+1):
                         pass
                     else:
                         matrix[col][row] += color
+    pprint(matrix)
     count = 0
     for x in matrix:
         for y in x:
