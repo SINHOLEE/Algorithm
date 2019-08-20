@@ -3,6 +3,7 @@
 #
 # def fibo(n):
 #     global memo
+#       # da
 #     if len(memo) <= n and n >= 2:
 #         memo += [fibo(n-1) + fibo(n-2)]
 #
@@ -25,18 +26,19 @@
 # ans = fibo1(35)
 # print(ans)
 
-#  동적계획법
+#  동적계획법(DP)
 
+# def fibo2(n):
+#     memo = [0] * (n + 1)
+#     memo[0], memo[1] = 0, 1
+#
+#     if n >= 2:
+#         for i in range(2, n+1):
+#             memo[i] = memo[i-1] + memo[i-2]
+#         return memo[n]
+#     else:
+#         return memo[n]
+#
+# print(fibo2(7))
 
-
-def fibo2(n):
-    memo = [0, 1]
-
-    if n >= 2:
-        for i in range(2, n+1):
-            memo += [memo[i-1] + memo[i-2]]
-        return memo[n]
-    else:
-        return memo[n]
-
-print(fibo2(6))
+print(2 ** 19)
