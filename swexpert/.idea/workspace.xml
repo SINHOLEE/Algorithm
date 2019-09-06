@@ -2,34 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be47a239-6a39-41c8-bb00-e6d3929b58ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/작업순서_인동.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월26일이신호/magnetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월26일이신호/연습문제1 계산기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월26일이신호/재귀호출실습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/Forth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/N-Queen_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/profesor_sum_of_subset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/shuffle_O_magic_2019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/sum_min_0f_SUBSET_need_to_remind.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/모의고사1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월27일이신호/토너먼트 카드게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월28일이신호/queue_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월28일이신호/swcertification2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8월/서울2반8월28일이신호/youngjuns_card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../beckjun/2635 수 이어가기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../beckjun/2669_올림피아드_1996_직사각형 면적.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월19일이신호/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월19일이신호/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/괄호검사.py" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/괄호검사.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/그래프경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/그래프경로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/반복문자지우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/반복문자지우기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/작업순서.py" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/작업순서.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/종이붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월20일이신호/종이붙이기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/2048.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/divied_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월2일이신호/수열편집.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월2일이신호/수열합치기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월2일이신호/숫자 추가.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월2일이신호/암호.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월3일이신호/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월3일이신호/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월3일이신호/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월3일이신호/.idea/서울2반9월3일이신호.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월3일이신호/행렬찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/.idea/서울2반9월4일이신호.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/danjo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/oselo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/vertical_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9월/서울2반9월4일이신호/파리퇴치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/16234 인구이동.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/16502 연구소.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/17143 낚시왕.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/17144 미세먼지 안녕.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/5373 큐빙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/6988 타일밟기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/gong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/낚시왕.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beckjun/희원이 상어잡기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1247.최적경로 D5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/모의검정/2382. 미생물 격리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/모의검정/5658 보물상자 비밀번호.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8월/서울2반8월29일이신호/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8월/서울2반8월29일이신호/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../beckjun/.idea/beckjun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../beckjun/.idea/beckjun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../beckjun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beckjun/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/swexpert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/swexpert.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,45 +56,97 @@
     <session id="1225962588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="17" />
-          <entry key="py" value="4201" />
+          <entry key="dummy" value="39" />
+          <entry key="py" value="12141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="4201" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="12141" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/longest_path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="342">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="16" selection-end-line="19" />
               <folding>
                 <marker date="1567053362019" expanded="true" signature="50:369" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1247.최적경로 D5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../9월/divied_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/모의검정/5658 보물상자 비밀번호.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="45" column="40" lean-forward="true" selection-end-line="45" selection-end-column="40" />
+              <folding>
+                <marker date="1567751257770" expanded="true" signature="48:689" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <marker date="1567757778028" expanded="true" signature="22:780" ph="..." />
               </folding>
             </state>
           </provider>
@@ -112,11 +179,17 @@
       <list>
         <option value="$PROJECT_DIR$/최장경로.py" />
         <option value="$PROJECT_DIR$/the_laegest_num_in_hotline.py" />
+        <option value="$PROJECT_DIR$/1247.최적경로 D5.py" />
+        <option value="$PROJECT_DIR$/미생물.py" />
+        <option value="$PROJECT_DIR$/미생물 격리.py" />
+        <option value="$PROJECT_DIR$/모의검정/보물찾기.py" />
+        <option value="$PROJECT_DIR$/모의검정/5658 보물상자 비밀번호.py" />
+        <option value="$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -126,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,15 +206,26 @@
               <item name="swexpert" type="b2602c69:ProjectViewProjectNode" />
               <item name="swexpert" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="swexpert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swexpert" type="462c0819:PsiDirectoryNode" />
+              <item name="모의검정" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../8월/새 폴더" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\development\Algorithm\swexpert\모의검정" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.the_laegest_num_in_hotline">
-    <configuration name="최장경로" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.4311 오래된스마트폰">
+    <configuration name="미생물 격리" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="swexpert" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +252,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\student\development\Algorithm\swexpert\longest_path.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\student\development\Algorithm\swexpert\모의검정\2382. 미생물 격리.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1247.최적경로 D5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="swexpert" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1247.최적경로 D5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4311 오래된스마트폰" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="swexpert" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/모의검정" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5658 보물상자 비밀번호" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="swexpert" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/모의검정" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/모의검정/5658 보물상자 비밀번호.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,13 +346,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.최장경로" />
       <item itemvalue="Python.the_laegest_num_in_hotline" />
+      <item itemvalue="Python.1247.최적경로 D5" />
+      <item itemvalue="Python.미생물 격리" />
+      <item itemvalue="Python.5658 보물상자 비밀번호" />
+      <item itemvalue="Python.4311 오래된스마트폰" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4311 오래된스마트폰" />
+        <item itemvalue="Python.5658 보물상자 비밀번호" />
+        <item itemvalue="Python.미생물 격리" />
+        <item itemvalue="Python.1247.최적경로 D5" />
         <item itemvalue="Python.the_laegest_num_in_hotline" />
-        <item itemvalue="Python.최장경로" />
       </list>
     </recent_temporary>
   </component>
@@ -224,15 +376,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3296875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33297643" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997879" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3319194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32979852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -281,6 +434,260 @@
           <line>44</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1247.최적경로 D5.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -293,13 +700,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/the_laegest_num_in_hotline.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="3574" column="8" selection-start-line="3574" selection-start-column="8" selection-end-line="3574" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/longest_path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="342">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="16" selection-end-line="19" />
           <folding>
             <marker date="1567053362019" expanded="true" signature="50:369" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1247.최적경로 D5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../9월/divied_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -308,6 +736,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algo_study_str.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/모의검정/2382. 미생물 격리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/모의검정/5658 보물상자 비밀번호.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="45" column="40" lean-forward="true" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <marker date="1567751257770" expanded="true" signature="48:689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/모의검정/4311 오래된스마트폰.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <marker date="1567757778028" expanded="true" signature="22:780" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
