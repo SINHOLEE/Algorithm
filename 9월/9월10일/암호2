@@ -1,0 +1,15 @@
+hex1 = '000000001DB176C588D26EC000'
+
+# print(hex(0111011))
+
+# print(int(bin(7)[2:]))
+
+print(2**5 + 2 **4 + 2**3 + 2)
+
+print(hex(16 + 13))
+
+
+print(bin(0x328D1AF6E4C9BB))
+print(bin(0x196EBC5A316C578))
+print(bin(0x000000328D1AF6E4C9BB0000000196EBC5A316C57800000000
+))
