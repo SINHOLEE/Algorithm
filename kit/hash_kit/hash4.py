@@ -40,15 +40,6 @@ def merge(lef1, rig1):
     return new_list
 
 
-
-
-
-
-
-
-
-
-
 # genres = ["classic", "pop", "classic", "classic", "pop", ]
 # plays = [500, 600, 150, 800, 2500,]
 def solution(genres, plays):
