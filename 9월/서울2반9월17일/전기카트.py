@@ -1,16 +1,17 @@
+# TSP문제
+
 from pprint import pprint
 def perm(a, b, temp, cnt):
-    global min_elect
-
-
+    global min_elect, how_many
+    how_many += 1
     if cnt == N - 1:
         temp += mat[b][0]
         if min_elect > temp:
             min_elect = temp
         return
     #
-    if min_elect < temp:
-        return
+    # if min_elect < temp:
+    #     return
 
     for j in range(1, N):
         if visited[j]:
@@ -33,6 +34,7 @@ for tc in  range(1, T+1):
         # print(i)
         visited[i] = True
         count = 0
+        how_many = 0
         perm(0, i, mat[0][i], count + 1)
         visited[i] = False
-    print('#%s %s' % (tc, min_elect))
+    print('#%s %s %s' % (tc, min_elect, how_many))

@@ -21,45 +21,49 @@
 # combi(n, r)
 #
 # print(count)
-arr = [3, 1, 6,4]
-
-def perm(a, tem):
-    if len(tem) == len(arr):
-        print(tem)
-        return
-    for j in range(len(arr)):
-        if visited[j] == False:
-            visited[j] = True
-            # temp.append(arr[j])
-            perm(a+1,tem )
-            # temp.pop()
-            visited[j] = False
-
-
-visited = [False] * len(arr)
-temp = [0] * len(arr)
-
-perm(-1, 4)
-r = 3
-
-# def combi(a, r):
-#     if len(temp) == r:
-#         print(temp)
+arr = [3, 1, 6,4,1]
+#
+# def perm(a, tem):
+#     if len(tem) == len(arr):
+#         print(tem)
 #         return
-#     for j in range(a, len(arr)):
+#     for j in range(len(arr)):
 #         if visited[j] == False:
 #             visited[j] = True
-#             temp.append(arr[j])
-#             combi(j, r)
-#             temp.pop()
+#             # temp.append(arr[j])
+#             perm(a+1,tem )
+#             # temp.pop()
 #             visited[j] = False
 #
 #
 # visited = [False] * len(arr)
-# temp = []
-# for i in range(len(arr)):
-#     visited[i] = True
-#     temp.append(arr[i])
-#     combi(i, r)
-#     temp.pop()
-#     visited[i] = False
+# temp = [0] * len(arr)
+#
+# perm(-1, 4)
+r= 0
+
+def combi(a, r):
+    global count
+    count += 1
+    if len(temp) == r:
+        print(temp)
+        return
+    for j in range(a, len(arr)):
+        if visited[j] == False:
+            visited[j] = True
+            temp.append(arr[j])
+            combi(j, r)
+            temp.pop()
+            visited[j] = False
+
+
+visited = [False] * len(arr)
+temp = []
+count = 0
+for i in range(len(arr)):
+    visited[i] = True
+    temp.append(arr[i])
+    combi(i, r)
+    temp.pop()
+    visited[i] = False
+print(count)

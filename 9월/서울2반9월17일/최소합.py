@@ -1,7 +1,8 @@
 from pprint import pprint
 
 def move(i, j, result):
-    global min_value
+    global min_value, cnt
+    cnt += 1
     if i > N - 1 or j > N - 1:
         return
     if i == N - 1 and j == N - 1:
@@ -27,6 +28,12 @@ for tc in range(1, T+1):
     i_index = 0
     j_index = 0
     min_value = 99999999999999999999
-
+    cnt = 0
     move(i_index, j_index, mat[i_index][j_index])
-    print('#%s %s' % (tc, min_value))
+    print('#%s %s %s' % (tc, min_value, cnt))
+
+
+# dp
+
+def dp_solve(x, y):
+    if
