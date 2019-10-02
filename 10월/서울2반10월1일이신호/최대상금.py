@@ -78,7 +78,8 @@ for tc in range(1, T+1):
     result = 0
     dp = [{} for _ in range(k+1)]
     find(num, 0)
-    print(dp)
+    print(dic)
+    print(count)
     # print('#%s %s' %  (tc, result))
 
 

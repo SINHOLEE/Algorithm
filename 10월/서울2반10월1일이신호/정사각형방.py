@@ -14,8 +14,8 @@ for tc in range(1, T + 1):
     for i in range(N):
         for j in range(N):
             count = 1
-            if max_count > N ** 2 - mat[i][j]:  # 가지치기
-                continue
+            # if max_count > N ** 2 - mat[i][j]:  # 가지치기
+            #     continue
             flag = True
             start_Aij = mat[i][j]
             while True:
@@ -25,8 +25,7 @@ for tc in range(1, T + 1):
                 for k in range(4):
                     ii = i + di[k]
                     jj = j + dj[k]
-                    if i + di[k] >= 0 and j + dj[k] >= 0 and i + di[k] <= N - 1 and j + dj[k] <= N - 1 and mat[i][
-                        j] + 1 == mat[i + di[k]][j + dj[k]]:
+                    if i + di[k] >= 0 and j + dj[k] >= 0 and i + di[k] <= N - 1 and j + dj[k] <= N - 1 and mat[i][j] + 1 == mat[i + di[k]][j + dj[k]]:
                         count += 1
                         cnt += 1
                         i += di[k]
