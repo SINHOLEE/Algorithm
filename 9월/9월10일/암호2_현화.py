@@ -1,3 +1,8 @@
+import sys
+sys.stdin = open('sample_input.txt', 'r')
+sys.stdout = open('h_output.txt', 'w')
+
+
 def chk_code():
 
     global r, idx
@@ -38,11 +43,11 @@ for case in range(int(input())):
     visited = []
     result = 0
     for r in range(N):
-        c = M - 1
+        c = M - 1  # 마지막 인덱스
         flag = False
         temp = ''
-        while c >= 0:
-            if codes[r][c] != '0' and (codes[r - 1][c] == '0' or r == 0):
+        while c >= 0:  # 만약 마지막 인덱스가 0보다 작으면 멈추자
+            if codes[r][c] != '0' and (codes[r - 1][c] == '0' or r == 0):  # 0이 아니고, 밑에 애도 0이 아니거나, 밑에가 없을 때
                 flag = True
             if flag:
                 temp = hextobin[codes[r][c]] + temp
@@ -72,3 +77,4 @@ for case in range(int(input())):
 
 for i in range(len(result_list)):
     print(f'#{i+1} {result_list[i]}')
+
