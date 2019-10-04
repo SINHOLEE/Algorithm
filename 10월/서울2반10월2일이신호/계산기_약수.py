@@ -6,7 +6,11 @@ def div(n, temp):
     return sorted(temp)
 
 def check_able(n):
+    if n in dp:
+        return
+    if 
 
+    pass
 T = int(input())
 for tc in range(1, T+1):
     nums = list(map(int, input().split()))
