@@ -7,7 +7,7 @@ while True:
         if count == 1:
             preorder[1].append(n)
         else:
-            
+
 
     except:
         break
