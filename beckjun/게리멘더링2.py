@@ -58,3 +58,7 @@ for ii in range(0, n-2):
                 if total_min > temp:
                     total_min = temp
 print(total_min)
+
+
+# 대각선 바라보는 방법: x, y 기준으로 우 하향 대각선은, x-y와 같은 모든 값의 좌표들, 
+# 좌 하향 대각선은 x+y의 값을 갖는 모든 좌표들
