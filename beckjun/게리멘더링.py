@@ -64,6 +64,7 @@ group_a = []
 group_b = []
 total_set = []
 partset(0, group_a, group_b,1)
+print(total_set)
 min_diff = 9999999
 
 for agroup, bgroup in total_set:
