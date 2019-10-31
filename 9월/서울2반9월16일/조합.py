@@ -40,7 +40,7 @@ arr = [3, 1, 6,4,1]
 # temp = [0] * len(arr)
 #
 # perm(-1, 4)
-r= 0
+r= 3
 
 def combi(a, r):
     global count
