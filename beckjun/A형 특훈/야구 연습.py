@@ -1,3 +1,7 @@
+'''
+빠른 순열의 필요성
+'''
+
 from pprint import pprint
 
 
