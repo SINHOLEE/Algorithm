@@ -1,3 +1,8 @@
+'''
+ 대각선 바라보는 방법: x, y 기준으로 우 하향 대각선은, x-y와 같은 모든 값의 좌표들,
+ 좌 하향 대각선은 x+y의 값을 갖는 모든 좌표들
+'''
+
 from pprint import pprint
 import copy
 n = int(input())
@@ -21,7 +26,7 @@ for ii in range(0, n-2):
             for d2 in set_d2:
                 if ii + d1+ d2 > n-1:
                     continue
-                mat = copy.deepcopy(dummy_mat)
+                mat = [arr[:] for arr in dummy_mat]
                 mat[ii][jj] = 4
                 groups = [0, 0, 0, 0, 0]
 
@@ -59,6 +64,3 @@ for ii in range(0, n-2):
                     total_min = temp
 print(total_min)
 
-
-# 대각선 바라보는 방법: x, y 기준으로 우 하향 대각선은, x-y와 같은 모든 값의 좌표들, 
-# 좌 하향 대각선은 x+y의 값을 갖는 모든 좌표들

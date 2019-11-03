@@ -1,3 +1,10 @@
+'''
+느낌점
+1. deepcopy보다 dummy_mat = [item[:] for item in mat ] 가 더 빠르다.
+2. for문에 집착하지 말자.
+3. 조합, 순열의 기본은 for문이다. 간단하게 짤 생각하자.
+'''
+
 from pprint import pprint
 n, m, d = map(int, input().split())
 
