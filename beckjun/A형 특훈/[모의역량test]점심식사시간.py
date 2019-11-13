@@ -10,6 +10,14 @@ def find_time(distances, k):
             total += max(queue)
             break
         distances = list(map(lambda x:x-1, distances))
+        queue = list(map(lambda x:x -1, queue ))
+        while True:
+            if len(queue) == 0:
+                break
+            if queue[0] != 0:
+                break
+            queue.pop(0)
+
         while True:
             # print(distances)
             if len(distances) == 0:
@@ -21,20 +29,10 @@ def find_time(distances, k):
 
             distances.pop(0)
             queue.append(k)
-        while True:
-            if len(queue) == 0:
-                break
-            if queue[0] != 0:
-                break
-            queue.pop(0)
 
-
-        queue = list(map(lambda x:x -1, queue ))
 
         total += 1
-
     return total
-
 
 def make_subset(a, b, depth):
     global min_time
@@ -48,12 +46,9 @@ def make_subset(a, b, depth):
             b_distances = list(map(lambda x:abs(x[0] - k_data[1][0]) + abs(x[1] - k_data[1][1]),b))
         else:
             b_distances = []
-
-        res = max(find_time(a_distances, k_data[0][2]), find_time(b_distances, k_data[1][2]))
-        if res == 19:
-            print(res)
-            print(a_distances)
-            print(b_distances)
+        aaa = find_time(a_distances, k_data[0][2])
+        bbb = find_time(b_distances, k_data[1][2])
+        res = max(aaa, bbb)
         if min_time > res:
             min_time = res
         return
@@ -77,4 +72,4 @@ for t in range(1, T+1):
     min_time = 987654321
     visited = [False] * people_len
     make_subset([],[],0)
-    print(min_time)
+    print('#%s %s' % (t, min_time))
