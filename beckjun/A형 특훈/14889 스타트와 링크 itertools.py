@@ -5,6 +5,7 @@ if min_score ==0:
 이거 하나로 몇배나 빨라졌다.
 '''
 from itertools import combinations
+
 n = int(input())
 mat = [list(map(int, input().split())) for _ in range(n)]
 def cal(lis1):

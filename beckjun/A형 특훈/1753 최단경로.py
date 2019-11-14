@@ -28,6 +28,7 @@ visited = [False] * V
 distance[start] = 0
 hq = []
 heapq.heappush(hq, (distance[start], start))
+print(adj_list)
 while True:
     if len(hq) == 0:
         break
@@ -35,7 +36,7 @@ while True:
     dis_til_u, u = heapq.heappop(hq)
     visited[u] = True
     for v, w in adj_list[u].items():
-        if visited[v] == False and distance[v] > dis_til_u + w:
+        if visited[v] == False and distance[v] >  dis_til_u+ w:
             distance[v] = dis_til_u + w
             heapq.heappush(hq, (distance[v], v))
 for item in distance:

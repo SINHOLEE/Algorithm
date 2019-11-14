@@ -106,24 +106,30 @@ for i in range(n):
 
 # step3 MST 구하기
 
-key = [101] * (cnt)
-visited = [0] *(cnt)
-key[1] = 0
-for _ in range(cnt): # 정점의 수만큼 반복
-    idx = -1
-    min_val = 101
-    for i in range(1, cnt):
-        if visited[i] == 0 and key[i] < min_val:
-            min_val = key[i]
-            idx = i
-    visited[idx] = 1
-    for next in range(1,cnt):
-        if visited[next] == 0 and key[next] > adj_mat[idx][next]:
-            key[next] = adj_mat[idx][next]
+keys = [[101, i, -1] for i in range(cnt)]
+keys[3][0] = 0 # 스타트 노드 초기화
+visited = [0] * cnt
+hq = [keys[3]]
 
-for k in range(2, cnt):
-    if key[k] == 101:
+while hq:
+    value, u, from_node = heapq.heappop(hq)
+    keys[from_node][2] = u
+    visited[u] = 1
+
+    for v in range(1, cnt):
+        if visited[v] == 0 and keys[v][0] > adj_mat[u][v]:
+            #현재 방문했던 노드에서부터 진출할 수 있는 최소간선보다, 새로운 노드가 추가됨으로써
+            # 더 낮은비용의 간선이 있다면 그 간선을 선택한다 or 그 간선 만? 선택한다.
+                keys[v][0] = adj_mat[u][v]
+                keys[v][2] = u
+                heapq.heappush(hq,keys[v])
+print(keys)
+
+for key, node, f in keys:
+    if node == 0:
+        continue
+    if key == 101:
         print(-1)
         break
 else:
-    print(sum(key[1:]))
+    print(sum(map(lambda x:x[0], keys[1:])))
