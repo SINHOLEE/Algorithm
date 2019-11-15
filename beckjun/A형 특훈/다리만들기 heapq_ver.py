@@ -107,9 +107,9 @@ for i in range(n):
 # step3 MST 구하기
 
 keys = [[101, i, -1] for i in range(cnt)]
-keys[3][0] = 0 # 스타트 노드 초기화
+keys[1][0] = 0 # 스타트 노드 초기화
 visited = [0] * cnt
-hq = [keys[3]]
+hq = [keys[1]]
 
 while hq:
     value, u, from_node = heapq.heappop(hq)
