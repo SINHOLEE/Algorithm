@@ -1,6 +1,6 @@
 from collections import deque
 n,m,t = map(int, input().strip().split())
-DEBUG = False
+DEBUG = True
 di = [0, 0, -1, 1]
 dj = [-1, 1, 0, 0]
 mat = [list(map(int, input().strip().split())) for _ in range(n)]
@@ -17,7 +17,10 @@ while q:
     if cnt > t:
         break
     if DEBUG:
+        print()
         print(hassord)
+        for a in mat:
+            print(a)
         for arr in mat:
             print(arr)
     if x==n-1 and y==m-1:
