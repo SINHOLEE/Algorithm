@@ -34,3 +34,5 @@ for _ in range(t):
 
     print(cluster_num)
 
+    list()
+
