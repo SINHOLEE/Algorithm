@@ -33,7 +33,7 @@ def combi(n,r):
                 break
         my_end_idx = length-1
         idx+=1
-        while idx != my_end_idx and idx < my_end_idx:
+        while idx < my_end_idx:
             p[idx], p[my_end_idx] = p[my_end_idx], p[idx]
             idx += 1
             my_end_idx -= 1
