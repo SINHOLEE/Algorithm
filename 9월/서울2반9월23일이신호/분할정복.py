@@ -54,4 +54,4 @@ for tc in range(1, T+1):
     arr = list(map(int, input().split()))
     count = 0
     sorted_arr = devided_sort(arr)
-    print('#%s %s' % (tc, sorted_arr[N//2]))
+    print('#%s %s' % (tc, sorted_arr))
