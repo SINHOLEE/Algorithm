@@ -2,7 +2,6 @@ import sys
 input = sys.stdin.readline
 def find(x):
     if root[x] == x:
-
         return x
     y = find(root[x])
     root[x] = y
@@ -16,6 +15,7 @@ def union(x,y):
         return
     root[y] = x
     network[x] = network[x] + network[y]
+
 t = int(input())
 for _ in range(t):
     n = int(input())
