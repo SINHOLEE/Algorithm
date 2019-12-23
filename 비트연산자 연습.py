@@ -1,8 +1,16 @@
-def get_nth_bit(n, nth):
-    return n & (1 << nth)
-
-
-print('10진수 100을 2진수로 변환한 값:', bin(100))
-print(get_nth_bit(100, 2))
-
-print(get_nth_bit(100, 7))
+def perm(depth,lis):
+    global visited
+    if depth == len(nums):
+        print(lis)
+        return
+    for i in range(len(nums)):
+        if visited & 1 << i:
+            continue
+        # temp = visited
+        visited = visited | 1 << i
+        perm(depth+1, lis+[nums[i]])
+        visited = not (-1*(visited-1) & 1 << i)
+        # visited = temp
+visited = 0
+nums = [1,2,3]
+perm(0,[])
