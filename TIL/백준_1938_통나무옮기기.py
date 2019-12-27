@@ -1,6 +1,11 @@
 from _collections import deque
 n = int(input())
 
+def swich(x):
+    if x == 3:
+        return 4
+    else:
+        return 3
 mat = [input() for _ in range(n)]
 
 wood = deque([[]])
@@ -35,7 +40,8 @@ for a in visited:
     print(a)
         # 좌    우    하     상
 near = [(0,-1),(0,1),(1,0),(-1,0),'T']
-T_map = (-1, 1)
+        #d == 3,            d==4
+T_map = (((-1, 0), (1,0)),((0,-1),(0,1)))
 while wood:
     one, two, three, d, cnt = wood.popleft()
     w = [one, two, three]
@@ -43,12 +49,25 @@ while wood:
     for n in range(5):
         if near[n] == 'T':
             # turn
-            if d == 3:
-                if visited[two[0]][two[1]] == 3:
-                    continue
-                for i in range(2):
-                    for ww in w:
-                        newX, newY = ww[0]+T_map[i], ww[1]
+
+            if visited[two[0]][two[1]][((d-3)+1)%2] == 1:
+                continue
+            flag = False
+            for i in range(2):
+                for ww in w:
+                    newX, newY = ww[0]+T_map[d-3][i][0], ww[1] + T_map[d-3][i][1]
+                    if not (0 <= newX < n and 0 <= newY < n):
+                        flag = True
+                        break
+                    if mat[newX][newY] == '1':
+                        flag = True
+                        break
+                if flag:
+                    break
+            if not flag:
+                xxx, yyy = two[0], two[1]
+                visited[xxx][yyy][((d-3)+1)%2] = 1
+                wood.append(((xxx + T_map[d-3][0][0], yyy+ T_map[d-3][0][1]), (xxx, yyy), (xxx + T_map[d-3][1][0], yyy+ T_map[d-3][1][0]), swich(d), cnt + 1))
 
         else:
             pass
