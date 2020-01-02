@@ -33,25 +33,26 @@ while queue:
         if not (0 <= newX < n and 0 <= newY < n):
             continue
         if time == 3: # 밤
-            if mat[newX][newY] == -1:
+            if mat[newX][newY] == 0:
+                pass
+            elif mat[newX][newY] == -1:
                 newX, newY = move(newX, newY, di, dj)
-
-        if not mat[newX][newY]:
+        if mat[newX][newY] == -1:
+            continue
+        if mat[newX][newY] == 0:
 
             if cnt % m == 0:
                 temp = time^1
             mat[newX][newY] = cnt+1
             queue.append((newX, newY, cnt+1, temp))
 
-for a in mat:
-    print(a)
 
 if goal:
     if time == 2:
-
-        print(((cnt-1)//(2*m))+1, 'sun')
+        print(((cnt - 1) // (2 * m)) + 1, 'sun')
     else:
-        print(((cnt-1) // (2 * m)) + 1, 'moon')
+        print(((cnt - 1) // (2 * m)) + 1, 'moon')
+
 else:
     print(-1)
 
