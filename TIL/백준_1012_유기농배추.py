@@ -11,7 +11,7 @@ def dfs(x,y):
         x, y = queue.pop()
 
         for di, dj in near:
-            newX, newY = x+di, y+dj
+            newX, newY = x+di, y+
             if not (0<= newX < m and 0 <= newY < n):
                 continue
             if mat[newX][newY] == -1:
