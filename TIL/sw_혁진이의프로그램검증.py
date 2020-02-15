@@ -44,54 +44,79 @@ for t in range(1, T+1):
     n, m = map(int, input().split())
     mat = [[*map(str, input())] for _ in range(n)]
 
-    visited = [[[0]*16 for _ in range(m)] for _ in range(n)]
+    visited = [[[[0,0,0,0] for _ in range(16)] for _ in range(m)] for _ in range(n)]
     q = [(0, 0, 0, 1)]
+    visited[0][0][0][1] = 1
     flag = False
     while q:
 
-        yy, xx, memoryy, dd = q.pop(0)
-        if visited[yy][xx][memoryy]:
+        yy, xx, memoryy, dd = q.pop()
+        if mat[yy][xx] == "@":
+            flag = True
             break
+
         if mat[yy][xx] == '?':
-            visited[yy][xx][memoryy] = 1
 
             for k in range(4):
                 newY, newX = yy + dy[k], xx + dx[k]
                 if newY < 0:
-                    if visited[n-1][newX][memoryy]:
+                    if visited[n-1][newX][memoryy][k]:
                         continue
-                    q.append((n - 1, newX, memory, d))
+                    visited[n - 1][newX][memoryy][k] = 1
+                    q.append((n - 1, newX, memoryy, k))
                 elif newX < 0:
-                    q.append((newY, m - 1, memory, d))
+                    if visited[newY][m-1][memoryy][k]:
+                        continue
+                    visited[newY][m - 1][memoryy][k]=1
+                    q.append((newY, m - 1, memoryy, k))
                 elif newY >= n:
-                    q.append((0, newX, memory, d))
+                    if visited[0][newX][memoryy][k]:
+                        continue
+                    visited[0][newX][memoryy][k] = 1
+                    q.append((0, newX, memoryy, k))
                 elif newX >= m:
-                    q.append((newY, 0, memory, d))
+                    if visited[newY][0][memoryy][k]:
+                        continue
+                    visited[newY][0][memoryy][k]=1
+                    q.append((newY, 0, memoryy, k))
                 else:
-                    q.append((newY, newX, memory, d))
-
+                    if visited[newY][newX][memoryy][k]:
+                        continue
+                    visited[newY][newX][memoryy][k] = 1
+                    q.append((newY, newX, memoryy, k))
 
         else:
             y, x, memory, d = program(yy, xx, memoryy, dd)
-            if flag:
-                break
-
-            visited[y][x][memory] = 1
 
             newY, newX = y+dy[d], x+dx[d]
             if newY < 0:
+                if visited[n-1][newX][memory][d]:
+                    continue
+                visited[n-1][newX][memory][d] = 1
                 q.append((n-1, newX, memory, d))
             elif newX < 0:
+                if visited[newY][m-1][memory][d]:
+                    continue
+                visited[newY][m-1][memory][d] = 1
                 q.append((newY, m-1, memory, d))
             elif newY >= n:
+                if visited[0][newX][memory][d]:
+                    continue
+                visited[0][newX][memory][d] = 1
                 q.append((0, newX, memory, d))
             elif newX >= m:
+                if visited[newY][0][memory][d]:
+                    continue
+                visited[newY][0][memory][d] = 1
                 q.append((newY, 0, memory, d))
             else:
+                if visited[newY][newX][memory][d]:
+                    continue
+                visited[newY][newX][memory][d] = 1
                 q.append((newY, newX, memory, d))
 
     if flag:
-        print('YES')
+        print('#%s YES' % t)
     else:
-        print('NO')
+        print('#%s NO' % t)
 
