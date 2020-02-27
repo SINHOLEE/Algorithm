@@ -36,8 +36,8 @@ goal = [
 ]
 goal_num = boxing(goal, False)
 sy, sx, k = boxing(mat, True)
-visited = dict()
-visited[k] = 1
+visited = set()
+visited.add(k)
 q = deque([(sy, sx, 0, k)])
 
 near = ((1, 0), (0, 1), (-1, 0), (0, -1))
@@ -54,8 +54,8 @@ while q:
             continue
         dummy[yy][xx], dummy[y][x] = dummy[y][x], dummy[yy][xx]
         k = boxing(dummy, False)
-        if visited.get(k) is None:
-            visited[k] = 1
+        if k not in visited:
+            visited.add(k)
             q.append((yy, xx, res+1, k))
         dummy[yy][xx], dummy[y][x] = dummy[y][x], dummy[yy][xx]
 
