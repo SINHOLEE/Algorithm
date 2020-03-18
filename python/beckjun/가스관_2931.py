@@ -57,7 +57,7 @@ def check_method(y, x):
                 q.append((new_y, new_x))
             else:
                 return False
-            
+
     for i in range(n):
         for j in range(m):
             aa = sorted(direction_method(mat[i][j]))
