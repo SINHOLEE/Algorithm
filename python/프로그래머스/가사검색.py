@@ -43,18 +43,23 @@ def insert(word, my_dic):
 
 
 def solution(words, queries):
-    global dic, reversed_dic
     dic = {}
     reversed_dic = {}
-
+    questions_dic = {}
     for word in words:
         dic = insert(word, dic)
         reversed_dic = insert(word[::-1], reversed_dic)
-
+        if questions_dic.get(len(word)) is None:
+            questions_dic[len(word)] = 1
+        else:
+            questions_dic[len(word)] += 1
     answer = []
     for query in queries:
         if len(query) * '?' == query:
-            answer.append(sum(map(lambda x: 1 if len(x) == len(query) else 0, words)))
+            if questions_dic.get(len(query)) is None:
+                answer.append(0)
+            else:
+                answer.append(questions_dic[len(query)])
             continue
         if query[0] == '?':
             answer.append(search(query[::-1], reversed_dic))
@@ -63,4 +68,4 @@ def solution(words, queries):
     return answer
 
 
-solution(["frodo", "front", "frost", "frozen", "frame", "kakao"], ["?????", "????o", "fr???", "fro???", "pro?"])
+print(solution(["frodo", "front", "frost", "frozen", "frame", "kakao"], ["?????", "????o", "fr???", "fro???", "pro?"]))
