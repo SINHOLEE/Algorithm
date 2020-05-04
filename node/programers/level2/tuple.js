@@ -40,7 +40,6 @@ function solution(s) {
             return 1;
         }
     });
-    console.log(arr);
     let answer = [];
     let dic = {};
     arr.forEach( obj => {
@@ -51,13 +50,17 @@ function solution(s) {
             } else{
                 temp_dic[obj[i]] += 1;
             };
-            if (dic[obj[i]] !== temp_dic[obj[i]]){
-                answer.push(obj[i]);
-            };
         };
+        for (let [key,value] of Object.entries(temp_dic)){
+            if(dic[key] !== value){
+                answer.push(Number(key));
+                break;
+            }
+        }
         dic = temp_dic;
     })
+    console.log(answer);
     return answer;
 }
 
-solution("{{4,2,3},{3},{2,3,4,1},{2,3}}")
+solution("{{2},{2,1},{2,1,2},{2,1,2,4}}")
