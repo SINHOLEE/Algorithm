@@ -1,7 +1,11 @@
 function solution(s) {
     let a = s.substring(2, s.length - 2).split('},{');
+    console.log(a);
     a.sort((a, b) => a.length - b.length);
-    a = a.map(e => e.split(',').map(e => +e));
+    console.log(a);
+    
+    a = a.map(e => e.split(',').map(e => Number(e)));
+    console.log(a);
 
     const answer = [a[0][0]];
     for (let i = 1; i < a.length; i++) {

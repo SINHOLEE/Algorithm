@@ -54,13 +54,11 @@ function solution(s) {
         for (let [key,value] of Object.entries(temp_dic)){
             if(dic[key] !== value){
                 answer.push(Number(key));
-                break;
             }
         }
         dic = temp_dic;
     })
-    console.log(answer);
     return answer;
 }
 
-solution("{{2},{2,1},{2,1,2},{2,1,2,4}}")
+console.log(solution("{{2},{2,1},{2,1,2},{2,1,2,4}}"))
