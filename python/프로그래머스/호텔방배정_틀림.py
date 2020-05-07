@@ -28,8 +28,9 @@ def solution(k, room_number):
     global parent
     answer = []
     for num in room_number:
-        answer.append(find(num))
-        union(parent[num], parent[num]+1)
+        temp = find(num)
+        answer.append(temp)
+        union(temp, temp+1)
     return answer
 
 
