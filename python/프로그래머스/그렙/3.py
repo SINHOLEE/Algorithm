@@ -25,3 +25,11 @@ def solution(customer, K):
 
     room = sorted(room)
     return room
+
+
+solution([[2,1],[1,1],[3,1],[1,0],[1,1],[2,0],[2,1]], 1)
+
+
+arr = [0] * 1000001
+reserved_rooms = 0
+print(arr[1000000])
