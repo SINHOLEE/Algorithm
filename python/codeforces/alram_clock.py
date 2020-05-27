@@ -16,3 +16,4 @@ for i in range(t):
         print(b + (last_time//(c-d)) * c)
     else:
         print(b + (last_time // (c - d) + 1) * c)
+1
