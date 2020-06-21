@@ -1,8 +1,10 @@
+# took an hour
 from _collections import deque
 
 
 def bfs():
-    global visited_list, injectable_area, mat, n, m, res, visited_mat
+    global visited_list, injectable_area, mat, n, m, res, visited_mat, c
+    print(c)
     for i in range(n):
         for j in range(m):
             visited_mat[i][j][0] = 0
@@ -17,6 +19,7 @@ def bfs():
             q.append((y, x, visited_list[i], 0))
 
     while q:
+        c+=1
         y, x, color, cnt = q.popleft()
         # 꽃이 됐으면 진행하지 말아라
         if visited_mat[y][x][0] == 9:
@@ -46,7 +49,6 @@ def bfs():
 #  1. 녹색배양액의 위치를 먼저 선점한 뒤, 2. 빨간 배양액의 위치를 조합의 경우로 구해 bfs 시작지점을 설정한다.
 def combi(curr_idx, curr_cnt, target, target_cnt):
     global visited_list, g, r, res
-
     if curr_cnt == target_cnt:
         if target == 3:  # 현재 빨간 배양액을 바라보고 있으면, 종료
             # 2. 시뮬레이션 시작.
@@ -75,9 +77,11 @@ for i in range(n):
             injectable_area.append((i, j))
 # 1. 배양 가능한 좌표 구하기 g == 2, r == 3
 visited_list = [0] * len(injectable_area)
+c = 0
 # idx 0 == 배양색깔 표시, idx 1 == 해당위치에 도착하기 까지 걸린 시간 == cnt
 visited_mat = [[[0, 0] for _ in range(m)] for _ in range(n)]
 combi(0, 0, 2, g)  # 녹색 배양액 위치 정하기
 print(res)
+print(c)
 
 
