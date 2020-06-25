@@ -6,11 +6,10 @@ def solve():
         if target == "*":
             cnt += 1
             x = 5 * x + 3 ** (cnt-1)
-        else:
-            if target == "L":
-                x = 2*x
-            elif target == "R":
-                x = 2 * x + 3 ** cnt
+        elif target == "L":
+            x = 2*x
+        elif target == "R":
+            x = 2 * x + 3 ** cnt
 
     return x
 
