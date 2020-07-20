@@ -11,7 +11,8 @@ def delNode(head, k):
         head = temp.next
     else:
         prev.next = temp.next
-
+    # printList(temp)
+    del temp
     return head
 
 
