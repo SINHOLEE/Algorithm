@@ -1,4 +1,12 @@
-from pprint import pprint
+
+class Trie:
+    root = None
+    class node:
+        value = None
+        num = None
+        nxt = None
+        def __init__(self, value)
+
 
 def solution(words):
     answer = 0
@@ -24,8 +32,3 @@ def solution(words):
         else:
             answer += cnt
     return answer
-
-
-solution(["go", "gone", "guild"])
-
-
