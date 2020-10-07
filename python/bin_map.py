@@ -1,0 +1,80 @@
+class Person:
+    def __init__(self, m_id, name):
+        self.m_id = m_id
+        self.name = name
+    
+    def __repr__(self):
+        return "아이디: %s 이름: %s" % (self.m_id, self.name)
+
+class Map:
+    def __init__(self):
+        self.arr = [None] * 10
+        self.m_len = 0
+        self.size = 10
+
+    def insert(self, p):
+
+        if self.size > self.m_len:
+            self.arr[self.m_len] = p
+            self.m_len += 1
+            for i in range(self.m_len-1, 0, -1):
+                if self.arr[i-1].m_id > self.arr[i].m_id:
+                    self.arr[i-1], self.arr[i] = self.arr[i], self.arr[i-1]
+                else:
+                    break
+            return True
+        else:
+            return False
+    
+    def find(self, key):
+        target_idx = self._find_idx(key)
+        print("idx", target_idx)
+        return self.arr[target_idx]
+        
+    def _find_idx(self, key):
+        left = 0
+        right = self.m_len-1
+        mid = (left+right) // 2
+        while left <= right:
+            if self.arr[mid].m_id == key:
+                return mid
+            elif self.arr[mid].m_id < key:
+                left = mid + 1
+            else:
+                right = mid - 1
+            mid = (left + right) // 2
+        return None
+
+    def remove(self, key):
+        target_idx = self._find_idx(key)
+        if target_idx is not None:
+            return self.remove_at(target_idx) 
+        else:
+            print("key: %s 삭제불가" % key)
+
+    def remove_at(self, target_idx):
+        for i in range(target_idx+1, self.m_len):
+            self.arr[i-1] = self.arr[i]
+        self.m_len -=1
+        return True
+
+    def print_list(self):
+        print("self.m_len: %s " % self.m_len)
+        print(self.arr)
+        for i in range(self.m_len):
+            print(self.arr[i])
+
+
+m = Map()
+
+m.insert(Person(1, "sinho"))
+m.insert(Person(2, "a"))
+m.insert(Person(10, "a"))
+m.insert(Person(10, "10"))
+m.insert(Person(4, "b"))
+m.insert(Person(7, "c"))
+# m.insert(Person(3, "d"))
+# m.print_list()
+
+m.print_list()
+# print(m.find(10))
