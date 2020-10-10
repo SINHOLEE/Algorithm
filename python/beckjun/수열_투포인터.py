@@ -7,4 +7,3 @@ for i in range(n-k):
     curr = curr + arr[i+k] - arr[i]
     res = max(curr, res)
 print(res)
-
