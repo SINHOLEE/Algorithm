@@ -26,10 +26,10 @@ while True:
             d = (d+1) % 4
         else:
             d = (d+3) % 4
-    snake.append((ny, nx, d))
     if mat[ny][nx] == 0:
-        y, x, d = snake.popleft()
+        y, x, _ = snake.popleft()
         mat[y][x] = 0
+    snake.append((ny, nx, d))
     mat[ny][nx] = 2
     cnt += 1
 
