@@ -1,4 +1,4 @@
-#6:56
+#6:56 - 7:38
 
 def main(N,M,mat):
     global answer
